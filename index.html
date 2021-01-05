@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="content">
+<div class="row">
+    <div  id="box" style="border: dimgrey 2px solid;text-align: right;width: 100%;font-weight: bold">0</div>
+</div>
+<div class="btn" >
+    <button style="visibility: hidden">%</button>
+    <button style="visibility: hidden">AC</button>
+    <button id="op-percent" onclick="fper()">%</button>
+    <button id="op-clear" onclick="fc()">AC</button>
+</div>
+<div class="btn">
+    <button id="num7" onclick="getnum(this)">7</button>
+    <button id="num8" onclick="getnum(this)">8</button>
+    <button id="num9" onclick="getnum(this)">9</button>
+    <button id="op-divide" onclick="fd()">÷</button>
+</div>
+<div class="btn">
+    <button id="num4" onclick="getnum(this)">4</button>
+    <button id="num5" onclick="getnum(this)">5</button>
+    <button id="num6" onclick="getnum(this)">6</button>
+    <button id="op-multiply" onclick="fm()">×</button>
+</div>
+<div class="btn">
+    <button id="num1" onclick="getnum(this)">1</button>
+    <button id="num2" onclick="getnum(this)">2</button>
+    <button id="num3" onclick="getnum(this)">3</button>
+    <button id="op-sub" onclick="fs()">-</button>
+</div>
+<div class="btn">
+    <button id="num0" onclick="getnum(this)">0</button>
+    <button id="point" onclick="fp()">.</button>
+    <button id="equal" style="background-color: #58aef1" onclick="cal()">=</button>
+    <button id="op-add" onclick="fa()">+</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

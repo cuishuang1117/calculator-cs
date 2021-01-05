@@ -1,0 +1,45 @@
+body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 100%;
+}
+div.content{
+    display: flex;
+    height: 50%;
+    width: 22%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    height: 16%;
+    width: 90%;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    width: 90%;
+}
+button{
+    width: 22%;
+    height: 80%;
+    text-align: center;
+    border-radius: 2px;
+    font-weight: bold;
+}
+[id^="op"]{
+    background-color: #cbcaca;
+}
+#box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
